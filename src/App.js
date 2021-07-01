@@ -1,4 +1,4 @@
-import ExpenseDisplay from "./components/ExpenseDisplay";
+import ExpenseDisplay from './components/ExpenseDisplay';
 //import './index.css';
 //import './App.css';
 
@@ -33,7 +33,7 @@ function App() {
   return (
     <div>
       <h2>Let's get started!</h2>
-      <ExpenseDisplay itmes={expenses}></ExpenseDisplay>
+      <ExpenseDisplay expenses={expenses}/>
     </div>
   );
 }
