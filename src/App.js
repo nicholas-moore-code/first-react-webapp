@@ -1,4 +1,5 @@
-import ExpenseDisplay from './components/ExpenseDisplay';
+import React from 'react';
+import ExpenseDisplay from './components/Expenses/ExpenseDisplay';
 //import './index.css';
 //import './App.css';
 
